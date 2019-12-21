@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="CAboutDlg" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SeaBattleDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Actor" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAQAAABAA=</HashCode>
+      <FileName>Actor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bot">
+    <Position X="2.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAIAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Bot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cell" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Cell::CellState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Cell.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AACABEAAAAAAAACAAABACAAAAAAEAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Cell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAWQEAwgAIAAIAQAACAAAAgEAAAAAAAGAACAAAA=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameField" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBCBwECCRwAABAxAAIAhABQWmEEAB4AAYHAAAIAAEE=</HashCode>
+      <FileName>GameField.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameFieldItem" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAACAAAIGYAAEAIAAAAAAAAFAAiAAAAAAAAAAAE=</HashCode>
+      <FileName>GameFieldItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MatrixPoint">
+    <Position X="11.25" Y="1.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAASAAAAAABAAQAAAABgAAAAACAkAQAAAAA=</HashCode>
+      <FileName>MatrixPoint.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAEAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player">
+    <Position X="1.75" Y="3.5" Width="4.5" />
+    <NestedTypes>
+      <Enum Name="Player::FieldType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Player.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAEIARAAAAgEQIAAQAIEAAAAAgAAACwAAAAEAaAAAAA=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSeaBattleApp" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAIAA=</HashCode>
+      <FileName>SeaBattle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSeaBattleDlg" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAAEAABEAAAAAABABAABAAAAAAAQIAAAAAAAQAgQ=</HashCode>
+      <FileName>SeaBattleDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ship" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABECCAQAAKEAAQgAECAAAAACUgAOAAAgAAQAAAAE=</HashCode>
+      <FileName>Ship.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShipDeck" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgADAAAABgAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShipDeck.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
